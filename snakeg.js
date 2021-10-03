@@ -23,10 +23,10 @@ function init() {
 
     snake = {
         init_len : 5,
-        color : "blue",
+        color : "orange",
         cells : [],
         direction : "right",
-        speed : 10,
+        speed : 5,
 
         createSnake: function() {
             for(var i=this.init_len; i >= 0;i--) {
